@@ -4,7 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class Topic(
-    @StringRes val topicTitle: Int,
+    @StringRes val topicTitleResourceId: Int,
     val numberOfCourses: Int,
-    @DrawableRes val image: Int
+    @DrawableRes val imageResourceId: Int
 )
